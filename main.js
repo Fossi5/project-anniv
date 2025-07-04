@@ -111,13 +111,13 @@ const beerNames = {
     };
     
     // Affichage du résumé
-    showOrderSummary(table, beerItems, softItems, totalDrinks);
+    showOrderSummary(tableName, beerItems, softItems, totalDrinks);
 });
 
 // Fonction pour afficher le résumé de commande
-function showOrderSummary(table, beerItems, softItems, totalDrinks) {
+function showOrderSummary(tableName, beerItems, softItems, totalDrinks) {
     // Mise à jour de la table
-    document.getElementById('summaryTable').textContent = table;
+    document.getElementById('summaryTable').textContent = tableName;
     
     // Mise à jour des bières
     const beersSection = document.getElementById('beersSummary');
