@@ -43,15 +43,23 @@ orderForm.addEventListener('submit', async (e) => {
     let totalDrinks = 0;
     
     // Bières
-    const beers = ['heineken', 'leffe', 'chimay', 'stella', 'jupiler', 'hoegaarden'];
-    const beerNames = {
-        'heineken': 'Heineken',
-        'leffe': 'Leffe Blonde',
-        'chimay': 'Chimay',
-        'stella': 'Stella Artois',
-        'jupiler': 'Jupiler',
-        'hoegaarden': 'Hoegaarden'
-    };
+    const beers = ['Mutzig', 'Castel', 'Orijin', 'Harp', '33', 'Smouth', 'Kadji', 'Isembeck', 'Gin-tonic', 'Desperados', 'jupiler', 'leffe blonde','leffe brune']; 
+const beerNames = {
+    'Mutzig': 'Mutzig',
+    'Castel': 'Castel',
+    'Orijin': 'Orijin',
+    'Harp': 'Harp',
+    '33': '33 Export',
+    'Smouth': 'Smouth',
+    'Kadji': 'Kadji',
+    'Isembeck': 'Isembeck',
+    'Gin-tonic': 'Gin Tonic',
+    'Desperados': 'Desperados',
+    'jupiler': 'Jupiler',
+    'leffe blonde': 'Leffe Blonde',
+    'leffe brune': 'Leffe Brune'
+};
+
     
     const beerItems = [];
     beers.forEach(beer => {
