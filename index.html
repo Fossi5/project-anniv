@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Anniversaire - 10 ans + 1 an 🎉</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Section d'accueil -->
+        <header class="welcome-section">
+            <div class="celebration-icons">
+                <span class="icon">💑</span>
+                <span class="icon golden">✨</span>
+                <span class="icon">👶</span>
+            </div>
+            <h1 class="main-title">Bienvenue à notre Double Anniversaire</h1>
+            <div class="subtitle-container">
+                <p class="subtitle">10 ans de mariage 💍</p>
+                <p class="subtitle">1 an de notre petit trésor 👶</p>
+            </div>
+            <p class="welcome-text">Merci d'être parmi nous pour célébrer ces moments précieux !</p>
+        </header>
+
+        <!-- Formulaire de commande -->
+        <main class="form-section">
+            <div class="form-container">
+                <h2 class="form-title">Commandez vos boissons</h2>
+                <p class="form-subtitle">Sélectionnez votre table et vos boissons préférées</p>
+                
+                <form id="orderForm" class="order-form">
+                    <!-- Sélection de table -->
+                    <div class="form-group">
+                        <label for="table-select" class="form-label">
+                            <span class="label-icon">🪑</span>
+                            Votre table
+                        </label>
+                        <select id="table-select" name="table" class="form-select" required>
+                            <option value="" disabled selected>-- Choisissez votre table --</option>                        
+                            
+                            <option value="Table 1">Allemagne</option>
+                            <option value="Table 2">Australie</option>
+                            <option value="Table 3">Belgique</option>
+                            <option value="Table 4">Bresil</option>
+                            <option value="Table 5">Cameroun</option>
+                            <option value="Table 6">Canada</option>
+                            <option value="Table 7">Chilie</option>
+                            <option value="Table 7">Chine</option>
+                            <option value="Table 8">Chypre</option>
+                            <option value="Table 9">Cuba</option>
+                            <option value="Table 10">Espagne</option>
+                            <option value="Table 11">Egypte</option>
+                            <option value="Table 12">Fidji</option>
+                            <option value="Table 13">Finland</option>
+                            <option value="Table 14">France</option>
+                            <option value="Table 15">Gabon</option>
+                            <option value="Table 16">Grece</option>
+                            <option value="Table 17">Guyane</option>
+                            <option value="Table 18">Italie</option>
+                            <option value="Table 19">Japon</option>
+                            <option value="Table 20">Kenya</option>
+                            <option value="Table 21">Laos</option>
+                            <option value="Table 22">Malie</option>
+                            <option value="Table 23">Maroc</option>
+                            <option value="Table 24">Monaco</option>
+                            <option value="Table 25">Nepal</option>
+                            <option value="Table 26">Niger</option>
+                            <option value="Table 27">Norvege</option>
+                            <option value="Table 28">Senegal</option>
+                            <option value="Table 29">Somalie</option>
+                            <option value="Table 30">Suede</option>
+                            <option value="Table 31">Suisse</option>
+                        </select>
+                    </div>
+
+                    <!-- Section Bières -->
+                    <div class="drinks-section">
+                        <h3 class="drinks-title">
+                            <span class="drinks-icon">🍺</span>
+                            Bières
+                        </h3>
+                        <div class="drinks-grid">
+                            <div class="drink-item">
+                                <label class="drink-label">Mutzig</label>
+                                <input type="number" name="Mutzig" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            
+                            <div class="drink-item">
+                                <label class="drink-label">Castel</label>
+                                <input type="number" name="Castel" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Orijin</label>
+                                <input type="number" name="Orijin" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                           
+                            <div class="drink-item">
+                                <label class="drink-label">Harp</label>
+                                <input type="number" name="Harp" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">33</label>
+                                <input type="number" name="33" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Smouth</label>
+                                <input type="number" name="Smouth" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Kadji</label>
+                                <input type="number" name="Kadji" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Isembeck</label>
+                                <input type="number" name="Isembeck" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Gin-tonic</label>
+                                <input type="number" name="Gin-tonic" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Desperados</label>
+                                <input type="number" name="Desperados" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Jupiler</label>
+                                <input type="number" name="jupiler" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Leffe Blonde</label>
+                                <input type="number" name="leffe" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Leffe Brune</label>
+                                <input type="number" name="leffe" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section Softs -->
+                    <div class="drinks-section">
+                        <h3 class="drinks-title">
+                            <span class="drinks-icon">🥤</span>
+                            Boissons sans alcool
+                        </h3>
+                        <div class="drinks-grid">
+                            <div class="drink-item">
+                                <label class="drink-label">Coca-Cola</label>
+                                <input type="number" name="coca" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Sprite</label>
+                                <input type="number" name="sprite" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Jus d'orange</label>
+                                <input type="number" name="orange-juice" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Eau pétillante</label>
+                                <input type="number" name="sparkling-water" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Eau plate</label>
+                                <input type="number" name="still-water" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                            <div class="drink-item">
+                                <label class="drink-label">Limonade</label>
+                                <input type="number" name="lemonade" class="quantity-input" min="0" max="5" value="0">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bouton d'envoi -->
+                    <button type="submit" class="submit-button" id="submitBtn">
+                        <span class="button-text">Voir le résumé</span>
+                        <span class="button-icon">📋</span>
+                    </button>
+                </form>
+            </div>
+        </main>
+
+        <!-- Modal de résumé de commande -->
+        <div id="orderSummary" class="modal-overlay hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>📋 Résumé de votre commande</h3>
+                    <button class="close-button" onclick="closeOrderSummary()">✕</button>
+                </div>
+                
+                <div class="summary-content">
+                    <div class="summary-section">
+                        <div class="summary-item table-info">
+                            <span class="summary-icon">🪑</span>
+                            <span class="summary-label">Table :</span>
+                            <span class="summary-value" id="summaryTable">-</span>
+                        </div>
+                    </div>
+
+                    <div class="summary-section" id="beersSummary">
+                        <h4 class="summary-category">🍺 Bières</h4>
+                        <div class="summary-items" id="beersItems"></div>
+                    </div>
+
+                    <div class="summary-section" id="softsSummary">
+                        <h4 class="summary-category">🥤 Boissons sans alcool</h4>
+                        <div class="summary-items" id="softsItems"></div>
+                    </div>
+
+                    <div class="summary-total">
+                        <div class="total-item">
+                            <span class="total-label">Total des boissons :</span>
+                            <span class="total-value" id="totalDrinks">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <button class="secondary-button" onclick="closeOrderSummary()">
+                        <span class="button-icon">✏️</span>
+                        Modifier
+                    </button>
+                    <button class="primary-button" onclick="confirmOrder()">
+                        <span class="button-text">Confirmer et envoyer</span>
+                        <span class="button-icon">🚀</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Message de confirmation -->
+        <div id="confirmation" class="confirmation-message hidden">
+            <div class="confirmation-content">
+                <div class="success-icon">✅</div>
+                <h3>Commande envoyée avec succès !</h3>
+                <p>Merci ! Votre commande a été transmise. Nous préparons vos boissons avec plaisir.</p>
+                <button onclick="resetForm()" class="reset-button">Nouvelle commande</button>
+            </div>
+        </div>
+
+        <!-- Loading overlay -->
+        <div id="loading" class="loading-overlay hidden">
+            <div class="loading-content">
+                <div class="spinner"></div>
+                <p>Envoi en cours...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
