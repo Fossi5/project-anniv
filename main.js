@@ -1,9 +1,9 @@
 // Configuration EmailJS
 // IMPORTANT: Remplacez ces valeurs par vos propres clés EmailJS
 const EMAILJS_CONFIG = {
-    publicKey: 'YOUR_PUBLIC_KEY', // Remplacez par votre clé publique
-    serviceId: 'YOUR_SERVICE_ID', // Remplacez par votre service ID
-    templateId: 'YOUR_TEMPLATE_ID' // Remplacez par votre template ID
+    publicKey: "0DNgOwW4lSepWRxCk", // Remplacez par votre clé publique
+    serviceId: "service_0j47kxh", // Remplacez par votre service ID
+    templateId: "template_bdutsdg" // Remplacez par votre template ID
 };
 
 // Initialisation EmailJS
