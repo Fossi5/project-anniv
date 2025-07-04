@@ -297,3 +297,4 @@ if (EMAILJS_CONFIG.publicKey === 'YOUR_PUBLIC_KEY') {
 }
 window.confirmOrder = confirmOrder;
 window.closeOrderSummary = closeOrderSummary;
+window.resetForm = resetForm;
