@@ -26,11 +26,14 @@ orderForm.addEventListener('submit', async (e) => {
     // Récupération des données du formulaire
     const formData = new FormData(orderForm);
     const orderData = {};
-    
-    // Extraction des données
     for (let [key, value] of formData.entries()) {
         orderData[key] = value;
     }
+    
+    // Récupération du label (nom affiché) de la table
+    const tableSelect = document.getElementById('table-select');
+    const selectedOption = tableSelect.options[tableSelect.selectedIndex];
+    const tableName = selectedOption.textContent; // ex : "Belgique"
     
     // Validation de la table
     if (!orderData.table) {
@@ -100,7 +103,7 @@ const beerNames = {
     
     // Stockage des données pour l'envoi ultérieur
     currentOrderData = {
-        table: orderData.table,
+        table: tableName,
         drinks_list: drinkQuantities.join('\n'),
         total_drinks: totalDrinks,
         timestamp: new Date().toLocaleString('fr-FR'),
@@ -108,7 +111,7 @@ const beerNames = {
     };
     
     // Affichage du résumé
-    showOrderSummary(orderData.table, beerItems, softItems, totalDrinks);
+    showOrderSummary(table, beerItems, softItems, totalDrinks);
 });
 
 // Fonction pour afficher le résumé de commande
