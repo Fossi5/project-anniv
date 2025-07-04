@@ -295,3 +295,5 @@ console.log(`
 if (EMAILJS_CONFIG.publicKey === 'YOUR_PUBLIC_KEY') {
     console.warn('⚠️ N\'oubliez pas de configurer EmailJS dans main.js !');
 }
+window.confirmOrder = confirmOrder;
+window.closeOrderSummary = closeOrderSummary;
