@@ -75,12 +75,13 @@ const beerNames = {
     });
     
     // Softs
-    const softs = ['Top Pamplemousse UCB', 'Top Ananas', 'Top Djino', 'Top Grenadine', 'Fanta', 'Coca cola'];
+    const softs = ['Top Pamplemousse UCB', 'Top Ananas', 'Top Djino', 'Top Grenadine', 'Eau plate', 'Fanta', 'Coca cola'];
     const softNames = {
         'Top Pamplemousse UCB': 'Top Pamplemousse UCB',
         'Top Ananas': 'Top Ananas',
         'Top Djino': 'Top Djino',
         'Top Grenadine': 'Top Grenadine',
+        'Eau plate': 'Eau plate',
         'Fanta': 'Fanta',
         'Coca cola': 'Coca cola'
     };
