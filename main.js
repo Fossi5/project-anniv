@@ -75,14 +75,14 @@ const beerNames = {
     });
     
     // Softs
-    const softs = ['coca', 'sprite', 'orange-juice', 'sparkling-water', 'still-water', 'lemonade'];
+    const softs = ['Top Pamplemousse UCB', 'Top Ananas', 'Top Djino', 'Top Grenadine', 'Fanta', 'Coca cola'];
     const softNames = {
-        'coca': 'Coca-Cola',
-        'sprite': 'Sprite',
-        'orange-juice': 'Jus d\'orange',
-        'sparkling-water': 'Eau pétillante',
-        'still-water': 'Eau plate',
-        'lemonade': 'Limonade'
+        'Top Pamplemousse UCB': 'Top Pamplemousse UCB',
+        'Top Ananas': 'Top Ananas',
+        'Top Djino': 'Top Djino',
+        'Top Grenadine': 'Top Grenadine',
+        'Fanta': 'Fanta',
+        'Coca cola': 'Coca cola'
     };
     
     const softItems = [];
